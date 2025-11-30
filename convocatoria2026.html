@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convocatoria 2026 - 4'33'' Festival</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .fade-in { opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        .hero-bg { background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 50%, #e2e8f0 100%); }
+        .nav-link { position: relative; transition: color 0.3s ease; }
+        .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background-color: #2d3748; transition: width 0.3s ease; }
+        .nav-link:hover::after { width: 100%; }
+        .btn-convocatoria { background-color: #2d3748; color: white; padding: 0.5rem 1.25rem; border-radius: 0.375rem; font-weight: 500; transition: all 0.3s ease; }
+        .btn-convocatoria:hover { background-color: #1a202c; transform: translateY(-1px); }
+        .btn-form { background-color: #2d3748; color: white; padding: 1rem 2rem; border-radius: 0.5rem; font-weight: 500; font-size: 1.125rem; transition: all 0.3s ease; display: inline-block; }
+        .btn-form:hover { background-color: #1a202c; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .formacion-item { background: #f7fafc; padding: 1rem 1.5rem; border-radius: 0.5rem; margin-bottom: 0.75rem; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-light text-gray-900 hover:text-gray-700 transition-colors">
+                    4'33''<span class="text-gray-500">.mx</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/#inicio" class="nav-link text-gray-700 hover:text-gray-900">Inicio</a>
+                    <a href="/#festival" class="nav-link text-gray-700 hover:text-gray-900">Festival</a>
+                    <a href="/#participantes" class="nav-link text-gray-700 hover:text-gray-900">Participantes</a>
+                    <a href="/#convocatoria" class="nav-link text-gray-700 hover:text-gray-900">Convocatoria</a>
+                    <a href="/#contacto" class="nav-link text-gray-700 hover:text-gray-900">Contacto</a>
+                    <a href="/convocatoria2026" class="btn-convocatoria">Convocatoria</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Convocatoria Content -->
+    <section class="hero-bg min-h-screen pt-32 pb-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="fade-in visible">
+                <!-- Back Link -->
+                <a href="/" class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-12 transition-colors">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    Volver al inicio
+                </a>
+                
+                <!-- Header -->
+                <div class="text-center mb-16">
+                    <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-4">Concurso de Comisión de Obra 2026</h1>
+                    <p class="text-xl text-gray-600">Cu4tro Tr3inta y Tr3s</p>
+                </div>
+                
+                <!-- Content -->
+                <div class="bg-white rounded-xl p-8 md:p-12 shadow-sm">
+                    <div class="prose prose-lg text-gray-700 leading-relaxed">
+                        
+                        <ol class="space-y-6 list-decimal list-outside ml-6">
+                            <li class="pl-2">
+                                Cu4tro Tr3inta y Tr3s es una plataforma autogestiva e independiente para la promoción y difusión de las músicas clásicas contemporáneas, entendidas desde una actualidad que abarca un amplio espectro.
+                            </li>
+                            <li class="pl-2">
+                                Su primer encuentro será realizado entre el <strong>01 y el 08 de agosto</strong> en la ciudad de <strong>Uruapan Michoacán, México</strong>.
+                            </li>
+                            <li class="pl-2">
+                                Dentro de las actividades hay <strong>8 conciertos estelares</strong> con una programación diversa donde diferentes intérpretes y ensambles participarán.
+                            </li>
+                            <li class="pl-2">
+                                Dentro de la programación serán incluidas <strong>cinco comisiones de obra</strong> hechas a cinco compositoras y/o compositores.
+                            </li>
+                            <li class="pl-2">
+                                A quien resulte ganador/a se le encargará una obra para ser escrita exprofeso para el encuentro.
+                            </li>
+                            <li class="pl-2">
+                                <strong>La comisión es honorífica.</strong> Quiere decir que no considera honorarios por la composición de la obra.
+                            </li>
+                            <li class="pl-2">
+                                <strong>Para aplicar es necesario:</strong>
+                                <ul class="list-disc list-outside ml-6 mt-3 space-y-2">
+                                    <li>Ser mexicano o residente en México</li>
+                                    <li>Tener entre 20 y 40 años de edad</li>
+                                    <li>Aplicar mediante el formulario donde deberá subir información profesional diversa así como ejemplos de obra personal</li>
+                                </ul>
+                            </li>
+                            <li class="pl-2">
+                                El margen de edad considera dar oportunidad a gente muy joven así como a creadores en su última etapa de juventud a quienes les sea significativa esta oportunidad.
+                            </li>
+                            <li class="pl-2">
+                                En el formulario se puede sugerir <strong>1 instrumentación preferente</strong>.
+                            </li>
+                            <li class="pl-2">
+                                Considerando esta sugerencia, la instrumentación será asignada a cada ganador/a por la programación interna del encuentro y dentro de las siguientes formaciones ya establecidas:
+                            </li>
+                        </ol>
+
+                        <!-- Formaciones -->
+                        <div class="my-8 pl-6">
+                            <div class="formacion-item">
+                                <strong>I.</strong> 1 cl. Bajo, 1 trp, 1 gtr., 1 sop., 1 gtr., 1 mba., 1 vln.
+                                <div class="text-sm text-gray-500 mt-1">Estrenadas por el Ensamble Zictra</div>
+                            </div>
+                            <div class="formacion-item">
+                                <strong>II.</strong> 1 sop., 1 pno., 1 mba.
+                                <div class="text-sm text-gray-500 mt-1">Estrenadas por el Ensamble Zictra</div>
+                            </div>
+                            <div class="formacion-item">
+                                <strong>III.</strong> Pno. Solo
+                                <div class="text-sm text-gray-500 mt-1">Estrenadas por el Ensamble Zictra</div>
+                            </div>
+                            <div class="formacion-item">
+                                <strong>IV.</strong> Flauta sola
+                                <div class="text-sm text-gray-500 mt-1">Estrenada por Wilfrido Terrazas</div>
+                            </div>
+                            <div class="formacion-item">
+                                <strong>V.</strong> Violín solo
+                                <div class="text-sm text-gray-500 mt-1">Estrenada por Julián Martínez</div>
+                            </div>
+                        </div>
+
+                        <ol class="space-y-6 list-decimal list-outside ml-6" start="11">
+                            <li class="pl-2">
+                                Cada ganador se compromete a aceptar la instrumentación asignada.
+                            </li>
+                            <li class="pl-2">
+                                La asignación de la obra será durante los primeros días de enero; la obra deberá ser entregada editada o en limpio, altamente legible, en partitura — si es el caso —, así como las partes a más tardar para el <strong>31 de mayo de 2026</strong>. Quiere decir que cada ganador tendrá cinco meses efectivos para entregar su obra a tiempo.
+                                <p class="mt-3 text-gray-600 italic">Debe considerarse que la aplicación a esta convocatoria considera la disponibilidad creativa y de tiempo para cumplir con este requisito.</p>
+                            </li>
+                            <li class="pl-2">
+                                Si el ganador no entrega su obra a tiempo, el encuentro no se hará responsable de su programación.
+                            </li>
+                            <li class="pl-2">
+                                La duración de la obra será acordada con la programación en su momento y en cada caso.
+                            </li>
+                            <li class="pl-2">
+                                Elementos adicionales, objetos, extensiones, instrumentos alternos, modificados, electrónica, etc., no son considerados de entrada, pero pueden dialogarse caso por caso en su momento, siempre y cuando el/la creador/a se haga responsable de su producción y provea del material necesario en tiempo y forma.
+                            </li>
+                            <li class="pl-2">
+                                Quien resulte ganador/a se compromete a asistir a la <strong>semana completa de actividades</strong>, así como a estar presente en todos los ensayos de su obra, así como en el estreno.
+                            </li>
+                            <li class="pl-2">
+                                Todos los gastos concernientes a su traslado y permanencia en el encuentro correrán por cuenta del participante; el encuentro no cubrirá gasto alguno.
+                            </li>
+                            <li class="pl-2">
+                                Quien resulte ganador/a no tendrá que pagar ninguna cuota por las actividades de la semana y podrá participar como activo.
+                            </li>
+                            <li class="pl-2">
+                                El encuentro registrará en audio y video las obras y entregará el material audiovisual a los ganadores como parte del beneficio de su selección.
+                            </li>
+                            <li class="pl-2">
+                                Dentro de la semana del encuentro el jurado elegirá uno de los creadores/as comisionados para asignarle de manera directa una nueva comisión para ser estrenada en el siguiente encuentro; al que será invitado como <strong>compositor emergente residente</strong> y tendrá un espacio para una conferencia donde exponga su trabajo.
+                            </li>
+                            <li class="pl-2">
+                                Esta convocatoria no discrimina por ninguna razón de formación, sea profesional o autodidacta, de género, de autopercepción de género, raza, clase, o alguna razón política; la aplicación no es anónima y la decisión de selección estará enfocada única y exclusivamente tanto en la solvencia y potencial del creador o la creadora para cumplir con la comisión, como en la calidad de su obra.
+                            </li>
+                            <li class="pl-2">
+                                <strong>El jurado estará integrado por:</strong> Nacho Baca-Lobera, Marisol Jiménez, Wilfrido Terrazas, Edgar Guzmán y Samuel Cedillo.
+                            </li>
+                            <li class="pl-2">
+                                El formulario estará abierto del día de la publicación de la convocatoria al <strong>25 de diciembre del 2025</strong> y se cerrará a las 22:00 horas.
+                            </li>
+                            <li class="pl-2">
+                                El fallo vendrá acompañado con la información de la obra asignada a cada seleccionado; será emitido el <strong>01 de enero</strong>, el resultado es inapelable.
+                            </li>
+                            <li class="pl-2">
+                                La aplicación a esta convocatoria implica la aceptación de todos los términos contenidos en ésta.
+                            </li>
+                        </ol>
+                        
+                        <!-- Form Link -->
+                        <div class="mt-12 pt-8 border-t border-gray-200 text-center">
+                            <p class="text-xl font-medium text-gray-800 mb-6">
+                                Aplica aquí:
+                            </p>
+                            <a href="https://forms.gle/ZkFfok1gYB1Ywd2cA" target="_blank" rel="noopener noreferrer" class="btn-form">
+                                Llenar formulario de inscripción
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="mt-12 text-center text-gray-600">
+                    <p>¿Tienes dudas? Escríbenos a <a href="mailto:433@pm.me" class="text-gray-900 hover:underline">433@pm.me</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-8 border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-600">
+            <a href="/" class="text-gray-900 hover:text-gray-700 transition-colors">4'33''.mx</a>
+            <span class="mx-2">•</span>
+            <span>Festival de Música Contemporánea</span>
+            <span class="mx-2">•</span>
+            <span>Uruapan, Michoacán</span>
+        </div>
+    </footer>
+
+    <script>
+        // Fade in animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
