@@ -17,6 +17,8 @@
         .btn-convocatoria { background-color: #2d3748; color: white; padding: 0.5rem 1.25rem; border-radius: 0.375rem; font-weight: 500; transition: all 0.3s ease; }
         .btn-convocatoria:hover { background-color: #1a202c; transform: translateY(-1px); }
         .participant-photo-large { width: 280px; height: 280px; border-radius: 50%; object-fit: cover; }
+        .participant-photo-zictra { width: 280px; height: 280px; }
+        .member-photo { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; background-color: #e2e8f0; }
     </style>
 </head>
 <body class="bg-white text-gray-800">
@@ -29,19 +31,17 @@
                 </a>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="/#inicio" class="nav-link text-gray-700 hover:text-gray-900">Inicio</a>
-                    <a href="/#festival" class="nav-link text-gray-700 hover:text-gray-900">Festival</a>
                     <a href="/#participantes" class="nav-link text-gray-700 hover:text-gray-900">Participantes</a>
                     <a href="/#convocatoria" class="nav-link text-gray-700 hover:text-gray-900">Convocatoria</a>
                     <a href="/#contacto" class="nav-link text-gray-700 hover:text-gray-900">Contacto</a>
-                    <a href="/convocatoria2026" class="btn-convocatoria">Convocatoria</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- Participant Content -->
-    <section class="hero-bg min-h-screen pt-32 pb-20">
-        <div class="max-w-4xl mx-auto px-6">
+    <!-- Ensemble Header -->
+    <section class="hero-bg pt-32 pb-16">
+        <div class="max-w-5xl mx-auto px-6">
             <div class="fade-in visible">
                 <!-- Back Link -->
                 <a href="/#participantes" class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-12 transition-colors">
@@ -51,30 +51,154 @@
                     Volver a participantes
                 </a>
                 
-                <!-- Participant Header -->
+                <!-- Ensemble Header -->
                 <div class="flex flex-col md:flex-row items-center md:items-start gap-12 mb-12">
-                    <img src="images/Zictrasobreblanco_3.png" alt="Zictra Ensamble" class="participant-photo-large shadow-lg">
+                    <img src="images/Zictrasobreblanco_3.png" alt="Zictra Ensamble" class="participant-photo-zictra shadow-lg">
                     <div class="text-center md:text-left">
                         <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-4">Zictra Ensamble</h1>
-                        <p class="text-xl text-gray-600">Ensamble de música contemporánea</p>
+                        <p class="text-lg text-gray-500">Ensamble de música contemporánea</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ensemble Members -->
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-light text-gray-900 mb-12 text-center">Integrantes</h2>
+            
+            <!-- Director -->
+            <div class="mb-16">
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/samuel-cedillo.jpg" alt="Samuel Cedillo" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Dirección</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2 text-center md:text-left">Samuel Cedillo</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Compositor mexicano de origen Mazahua. Estudió composición en el Conservatorio de las Rosas de Michoacán con Germán Romero. De sus influencias formativas posteriores a Romero, Cedillo considera principalmente a Emmanuel Nunes y Pierluigi Billone. Ha revisado su obra con compositores mexicanos y extranjeros. Su música se programa principalmente en Europa, Estados Unidos y América Latina. Su trayectoria cuenta con premios, reconocimientos, becas, grabaciones, comisiones, residencias y cursos. Su obra ha sido grabada en las casas disqueras Cero-Records (MX), Col-Legno y Kairos (AUS). Es miembro actual del Sistema Nacional de Creadores de Arte.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Musicians Grid -->
+            <div class="space-y-10">
                 
-                <!-- Biography -->
-                <div class="bg-white rounded-xl p-8 md:p-12 shadow-sm">
-                    <h2 class="text-2xl font-medium text-gray-900 mb-6">Sobre el ensamble</h2>
-                    <div class="prose prose-lg text-gray-700 leading-relaxed space-y-4">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
-                        <p>
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                        </p>
-                        <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-                        </p>
+                <!-- Clarinete Bajo -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/fabian-felix.jpg" alt="Fabián Félix Ruiz" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Clarinete bajo</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Fabián Félix Ruiz</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Nace en Charapan Michoacán. Comenzó sus estudios musicales desde muy pequeño dentro de bandas tradicionales comunitarias. Tomó iniciación musical con el violinista Julián Martínez; con quien más tarde participaría dentro del programa de educación regional (2006 – 2009). Egresa del bachillerato en música en el Conservatorio de las Rosas en 2010. Egresado con mención honorífica de la licenciatura en Instrumentos Orquestales en el Instituto Superior de Música del estado de Veracruz, bajo la tutela de la maestra Raquel Contreras Salinas. Tomó clases maestras con el profesor Luis Miguel Balseca Ayuso, Philippe Cuper y Marco Antonio Mazzini. Ha formado parte de diversas agrupaciones tales como Camerata del Conservatorio de las Rosas de Morelia Michoacán, orquesta juvenil del estado de Veracruz, ensamble de alientos del mtro. Timothy Mekeown, trío Chopin. Desde el 2019, es maestro de clarinete en el Conservatorio de las Rosas de Morelia Michoacán.
+                            </p>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Trompeta -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/sergio-ortiz.jpg" alt="Sergio A. Ortiz" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Trompeta</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Sergio A. Ortiz</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Nació en Sicuicho Michoacán. Graduado con mención honorífica de la licenciatura en música en la especialidad de trompeta por el Conservatorio de las Rosas de Morelia Michoacán, bajo la tutela del Maestro Alexander Freund. Ha tomado cursos y masterclass con maestros como Fred Mills (Canadian Brass), Edward Reid (University of Arizona), Marc Osterer, m5 Mexican Brass, la trombonista Carol Jarvis y la trompetista y saxofonista Sarah Field, Jérôme Naulais y Jean-Cristophe Vervoitte del Ensemble Intercontemporain y Guiliano Sommerhalder. Dentro de la música contemporánea ha participado con el Ensamble de las Rosas, ensamble 8 x radio, Ensamble Contemporáneo de Morelia, la Academia Cervantina del Festival Internacional Cervantino y Liminar. Actualmente es trompetista de la Orquesta Sinfónica de Michoacán (OSIDEM) y profesor de trompeta de la Facultad Popular de Bellas Artes de la Universidad Michoacana de San Nicolás de Hidalgo y del Conservatorio de Las Rosas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soprano -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/ana-rosa-morfin.jpg" alt="Ana Rosa Morfín" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Soprano</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Ana Rosa Morfín</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Soprano mexicana reconocida por la calidez y emotividad de su voz. Realizó sus estudios de licenciatura en el Conservatorio de Las Rosas, Maestría en Interpretación Vocal en el Conservatorio de Utrecht, Países Bajos. Se ha especializado en el trabajo corporal aplicado a músicos, bailarines y cantantes, explorando la Técnica Alexander, el Body-Mind Centering y la musicoterapia. Su más reciente investigación se centra en la conciencia corporal y el trabajo somático para cantantes. Ha desarrollado una amplia trayectoria artística presentándose en escenarios de México y Europa, con un repertorio que abarca lied, ópera, chanson, zarzuela, así como música latinoamericana y contemporánea. Su interés por la interdisciplinariedad la ha llevado a experimentar con la integración de la voz y otras manifestaciones artísticas como el teatro, la danza, la poesía y la literatura. Se desempeña como directora del Conservatorio de Uruapan y como profesora en la Universidad Autónoma de Tamaulipas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Voz/Objetos -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/rodrigo-espino.jpg" alt="Rodrigo Espino" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Voz / Objetos</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Rodrigo Espino</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Compositor mexicano cuya música es una experiencia visceral producida y percibida corporalmente. Estudió la licenciatura en composición en la Facultad de Música de la U.N.A.M., recibió la Medalla al Mérito Universitario "Gabino Barreda". Estudió composición de manera particular con Germán Romero (2013 - 2018) y con Samuel Cedillo (2016 - 2022), y piano con Raúl de la Mora (2019-23). Beca Jóvenes Creadores 2022-23, Programa de Fortalecimiento para Jóvenes Compositores en dos ocasiones (CMMAS 2017 y Cepromusic 2020). Ha asistido a talleres y clases maestras con Peter Ablinger, Marcelo Toledo, Sarah Maria Sun, Dror Feiler. Sus obras se han presentado en países como México, Suiza, Brasil y EEUU, MATA Festival 2025 Nueva York, 43 y 47 Foro de Música Nueva Manuel Enríquez, Festival Internacional Cervantino y Festival de Santa Catarina en Brasil.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Guitarra -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/julio-cervantes.jpg" alt="Julio Isaac Cervantes" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Guitarra</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Julio Isaac Cervantes</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Estudió la Licenciatura en Música en la Facultad de Artes de la UMSNH bajo la tutela de Eva Pleskova y Hebert Vázquez. También con Gonzalo Salazar, Julio Estrada, Alejandro Escuer, Eduardo Fernández, Gilson Antunes entre otros. Se ha presentado en diversos escenarios de la República, así como en: Festival Internacional Pa'lo Escrito, Aires-2023, Festival Expresiones Contemporáneas, Visiones Sonoras (CMMAS), 2ª Cumbre Iberoamericana de la Guitarra, Foro Internacional de Música Nueva Manuel Enríquez. Ha calificado como ganador: 1er Encuentro Nacional de Arte y Cultura Somos Universitarios (UAQ, 2014), Concurso de Composición de Música para Guitarra (FONCA-Pablo Gómez, 2015). Ha recibido el reconocimiento a la Excelencia Académica COPARMEX 2019. Actualmente su labor se realiza tanto en el campo de la creación como el de la interpretación de música contemporánea, enfocándose principalmente en la difusión de obras realizadas por creadores mexicanos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Marimba -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/jorge-mendoza.jpg" alt="Jorge Mario Mendoza" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Marimba</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Jorge Mario Mendoza</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Licenciado en marimba por la Facultad de Música UNICACH, maestro en interpretación musical por parte del Programa de Maestría y Doctorado en música de la UNAM. Nacido en la Ciudad de México, inició sus estudios profesionales en percusión en la Facultad de Música de la UNAM. En 2016 ingresó a la licenciatura en la Facultad de Música de la UNICACH, con la marimba como instrumento principal. En 2019, recibió la Beca Santander para realizar un semestre de intercambio en la Universidad Tokio Gakugei. En 2022, ganó el estímulo Fondo de amistad México-Japón para la grabación de un disco y la realización de una gira de conciertos en diferentes ciudades de Japón. Actualmente es docente de la cátedra de percusión en el Conservatorio de las Rosas en Morelia, Michoacán, y cursa el doctorado en interpretación musical en el Programa de Maestría y Doctorado en música de la UNAM.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Piano -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/diego-sanchez-villa.jpg" alt="Diego Sánchez-Villa" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Piano</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Diego Sánchez-Villa</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Pianista y compositor que encontró su pasión por la música desde temprana edad. Se ha presentado como solista, con la Orquesta Sinfónica "Estanislao Mejía" y el Ensamble de Música Nueva de la FaM - UNAM. En 2022, estrenó en México el Concierto para piano, orquesta de cuerdas y timbales de Galina Ustvolskaya, con la Orquesta de Cámara de Bellas Artes, bajo la dirección de Ludwig Carrasco. Es el pianista que presenta la obra completa para Tempus Clásico, destaca por su maestría y sensibilidad. Es conocido como uno de los jóvenes pianistas más activos en la promoción de nuevas obras para piano, creando proyectos y cautivando audiencias en México, España, Francia y Austria. En 2024 es premiado como "Solista Joven de ÓNIX de 2024 - 2026", premio otorgado por el ensamble ONIX Música Contemporánea que reconoce y apoya su carrera como difusor de la música contemporánea en México.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Violín -->
+                <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                        <img src="images/zictra/fabian-rangel.jpg" alt="Fabián Rangel" class="member-photo shadow-md flex-shrink-0">
+                        <div>
+                            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Violín</p>
+                            <h4 class="text-2xl font-medium text-gray-900 mb-2">Fabián Rangel</h4>
+                            <p class="text-gray-600 leading-relaxed">
+                                Violinista e improvisador mexicano. Se desarrolla en el ámbito de la música de concierto, principalmente en la música contemporánea y la improvisación libre. Ha tocado con el Ensamble Liminar (2022-23), Ensamble Templum (2021-24), Generación Espontánea (2016) y Sonidero13 (2014-2020). Fundador y miembro del proyecto de música experimental Shilti (2012-23). Formó parte del Evolution Ensemble, organizado por el International Contemporary Ensemble de Nueva York, EE.UU. (2021). Participó en el Foro Internacional de Música Nueva Manuel Enríquez 2022 y 2025. Estudió en la Escuela de Música Vida y Movimiento del Centro Cultural "Ollin Yoliztli" (2007-2011); la Orquesta Escuela Carlos Chávez (2007-2011); La Escuela Superior de Música, INBAL (2014-2020). Actualmente forma parte de la Orquesta Filarmónica de Acapulco.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -83,9 +207,20 @@
     <footer class="bg-white py-8 border-t border-gray-100">
         <div class="max-w-6xl mx-auto px-6 text-center text-gray-600">
             <a href="/" class="text-gray-900 hover:text-gray-700 transition-colors">4'33''.mx</a>
-            <span class="mx-2">·</span>
-            <span>Festival de Música Contemporánea</span>
         </div>
     </footer>
+
+    <script>
+        // Intersection Observer for fade-in animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
