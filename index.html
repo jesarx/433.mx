@@ -304,7 +304,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/rauldavila" class="group bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                    <a href="/rolandohernandez" class="group bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
                         <div class="participant-card">
                             <img src="images/rolandohernandez.jpg" alt="Rolando Hernández" class="participant-photo">
                             <div>
@@ -384,24 +384,34 @@
         </div>
     </section>
 
-    <!-- Conciertos Section -->
+<!-- Conciertos Section -->
     <section id="conciertos" class="py-20 bg-gray-50">
         <div class="max-w-6xl mx-auto px-6">
             <div class="fade-in visible">
                 <h2 class="text-4xl md:text-5xl font-light text-gray-900 mb-12 text-center">Programación conciertos</h2>
-<div class="grid md:grid-cols-2 gap-6">
-                    <img src="images/conciertos/1_Tenney.jpg" alt="Tenney" class="w-full rounded-xl shadow-md">
-                    <img src="images/conciertos/2__ElGranAltarB.jpg" alt="El Gran Altar B" class="w-full rounded-xl shadow-md">
-                    <img src="images/conciertos/4__VisionesEnRojo.jpg" alt="Visiones en Rojo" class="w-full rounded-xl shadow-md">
-                    <img src="images/conciertos/7_Estudiantes.jpg" alt="Estudiantes" class="w-full rounded-xl shadow-md">
-                    <img src="images/conciertos/8_Motus.jpg" alt="Motus" class="w-full rounded-xl shadow-md">
-                    <img src="images/conciertos/GesangIstDasein.jpg" alt="Gesang ist Dasein" class="w-full rounded-xl shadow-md">
-                    <img src="images/conciertos/GotLost.jpg" alt="Got Lost" class="w-full rounded-xl shadow-md">
-                    <img src="images/conciertos/Soliloquios.jpg" alt="Soliloquios" class="w-full rounded-xl shadow-md">
+                <div class="grid md:grid-cols-4 gap-6">
+                    <img src="images/conciertos/1_Tenney.jpg" alt="Tenney" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+                    <img src="images/conciertos/2__ElGranAltarB.jpg" alt="El Gran Altar B" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+                    <img src="images/conciertos/4__VisionesEnRojo.jpg" alt="Visiones en Rojo" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+                    <img src="images/conciertos/7_Estudiantes.jpg" alt="Estudiantes" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+                    <img src="images/conciertos/8_Motus.jpg" alt="Motus" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+                    <img src="images/conciertos/GesangIstDasein.jpg" alt="Gesang ist Dasein" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+                    <img src="images/conciertos/GotLost.jpg" alt="Got Lost" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+                    <img src="images/conciertos/Soliloquios.jpg" alt="Soliloquios" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 backdrop-blur-sm" onclick="closeLightbox(event)">
+        <button onclick="closeLightbox(event)" class="absolute top-6 right-6 text-white hover:text-gray-300 transition-colors z-[101]">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+        <img id="lightbox-img" src="" alt="" class="max-w-[90vw] max-h-[90vh] rounded-xl shadow-2xl object-contain" onclick="event.stopPropagation()">
+    </div>
 
 
 <!-- convocatoria section -->
@@ -415,10 +425,10 @@
                         Participa para inscribirte como estudiante a 4'33'' 2026
                     </p>
                     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <a href="/convocatoria2026-instrumentistas" class="inline-block btn-convocatoria text-lg px-8 py-3">
+                        <a href="/convocatoria_ensamble_2026" class="inline-block btn-convocatoria text-lg px-8 py-3">
                             Instrumentista para integrar Ensamble de estudiantes 4'33''
                         </a>
-                        <a href="/convocatoria2026-compositores" class="inline-block btn-convocatoria text-lg px-8 py-3">
+                        <a href="/convocatoria_compositores_2026" class="inline-block btn-convocatoria text-lg px-8 py-3">
                             Compositores estudiantes
                         </a>
                     </div>
@@ -530,6 +540,27 @@
         document.querySelectorAll('#participantes .group').forEach((card, index) => {
             card.style.transitionDelay = `${index * 100}ms`;
         });
+
+        function openLightbox(img) {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightbox.classList.remove('hidden');
+    lightbox.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox(event) {
+    const lightbox = document.getElementById('lightbox');
+    lightbox.classList.add('hidden');
+    lightbox.classList.remove('flex');
+    document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeLightbox();
+});
     </script>
 </body>
 </html>

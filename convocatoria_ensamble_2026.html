@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convocatoria Ensamble de Estudiantes 2026 - 4'33''</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .fade-in { opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        .hero-bg { background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 50%, #e2e8f0 100%); }
+        .nav-link { position: relative; transition: color 0.3s ease; }
+        .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background-color: #2d3748; transition: width 0.3s ease; }
+        .nav-link:hover::after { width: 100%; }
+        .btn-convocatoria { background-color: #2d3748; color: white; padding: 0.5rem 1.25rem; border-radius: 0.375rem; font-weight: 500; transition: all 0.3s ease; }
+        .btn-convocatoria:hover { background-color: #1a202c; transform: translateY(-1px); }
+        .btn-form { background-color: #2d3748; color: white; padding: 1rem 2rem; border-radius: 0.5rem; font-weight: 500; font-size: 1.125rem; transition: all 0.3s ease; display: inline-block; }
+        .btn-form:hover { background-color: #1a202c; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .horario-item { background: #f7fafc; padding: 1rem 1.5rem; border-radius: 0.5rem; margin-bottom: 0.75rem; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-light text-gray-900 hover:text-gray-700 transition-colors">
+                    4'33''<span class="text-gray-500">.mx</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/#inicio" class="nav-link text-gray-700 hover:text-gray-900">Inicio</a>
+                    <a href="/#participantes" class="nav-link text-gray-700 hover:text-gray-900">Participantes</a>
+                    <a href="/#convocatoria" class="nav-link text-gray-700 hover:text-gray-900">Convocatoria</a>
+                    <a href="/#contacto" class="nav-link text-gray-700 hover:text-gray-900">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Convocatoria Content -->
+    <section class="hero-bg min-h-screen pt-32 pb-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="fade-in visible">
+                <!-- Back Link -->
+                <a href="/" class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-12 transition-colors">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    Volver al inicio
+                </a>
+                
+                <!-- Header -->
+                <div class="text-center mb-16">
+                    <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-4">Proceso de Selección para Integrar el Ensamble de Estudiantes 2026</h1>
+                    <p class="text-xl text-gray-600">Cu4tro Tr3inta y Tr3s</p>
+                </div>
+                
+                <!-- Content -->
+                <div class="bg-white rounded-xl p-8 md:p-12 shadow-sm">
+                    <div class="prose prose-lg text-gray-700 leading-relaxed">
+                        
+                        <ol class="space-y-6 list-decimal list-outside ml-6">
+                            <li class="pl-2">
+                                Su primer encuentro será realizado entre el <strong>01 y el 08 de agosto</strong> en la ciudad de <strong>Uruapan Michoacán, México</strong>.
+                            </li>
+                            <li class="pl-2">
+                                Se convoca a instrumentistas estudiantes jóvenes mayores de edad a la fecha del encuentro de nivel medio, avanzado y egresados, o de formación independiente, a integrar el <strong>Ensamble de estudiantes 4'33''</strong>.
+                            </li>
+                            <li class="pl-2">
+                                El Ensamble trabajará de manera colectiva del <strong>02 al 07 de agosto del 2026</strong>, de 09:30 a 14:00 horas.
+                            </li>
+                            <li class="pl-2">
+                                El proceso de trabajo de estos 6 días estará dividido en dos partes:
+                            </li>
+                        </ol>
+
+                        <!-- Horarios -->
+                        <div class="my-8 pl-6">
+                            <div class="horario-item">
+                                <strong>De 9:30 a 11:30 horas</strong>
+                                <p class="mt-1">Montaje colectivo de obra abierta bajo la dirección concertante a cargo de <strong>Wilfrido Terrazas</strong>.</p>
+                            </div>
+                            <div class="horario-item">
+                                <strong>De 12:00 a 14:00 horas</strong>
+                                <p class="mt-1">Trabajo colectivo de improvisación/laboratorio, técnicas extendidas, objetos, etc., bajo la dirección concertante a cargo de <strong>Fernando Vigueras</strong>.</p>
+                            </div>
+                        </div>
+
+                        <ol class="space-y-6 list-decimal list-outside ml-6" start="5">
+                            <li class="pl-2">
+                                El trabajo culmina con una <strong>presentación pública para el 07 de agosto</strong> como parte de los conciertos nocturnos estelares.
+                            </li>
+                            <li class="pl-2">
+                                Estudiantes de flauta y guitarra podrán revisar de manera personal con los tutores si el tiempo y el espacio lo posibilita. Estos casos se resolverán de manera individual en su momento una vez seleccionados.
+                            </li>
+                            <li class="pl-2">
+                                Los tutores concertantes, una comisión de Zictra Ensamble, la coordinación y producción de 4'33'' podrán elegir uno o más instrumentistas estudiantes para invitarles al siguiente encuentro como <strong>Participante invitado</strong>, ya sea para programar obra de repertorio, obra nueva de estreno, para asignarle el estreno de una comisión, o ya sea para integrarle como invitado al Zictra Ensamble.
+                            </li>
+                            <li class="pl-2">
+                                Las y los seleccionado/as se comprometen a estar de <strong>tiempo completo</strong> en las actividades del encuentro entre el 01 y el 08 de agosto.
+                            </li>
+                            <li class="pl-2">
+                                El costo simbólico por la semana de trabajo con tutores y la asistencia libre a las actividades y conciertos de los 8 días de actividades será de <strong>$1000 pesos</strong>.
+                            </li>
+                            <li class="pl-2">
+                                Mediante una carta de motivos y de situación económica de redacción libre se puede solicitar un <strong>porcentaje de beca</strong> para asistir de resultar seleccionados.
+                            </li>
+                            <li class="pl-2">
+                                La cantidad de becas será limitada.
+                            </li>
+                            <li class="pl-2">
+                                Todos los gastos concernientes a su traslado y permanencia en el encuentro correrán por cuenta del participante; el encuentro no cubrirá gasto alguno.
+                            </li>
+                            <li class="pl-2">
+                                El encuentro sugerirá hoteles económicos en el Barrio en que sucederán las actividades; compartirá un mapa de negocios de alimentos económicos locales de la zona para facilitar la estancia y apoyar la economía de los estudiantes durante su estancia.
+                            </li>
+                            <li class="pl-2">
+                                Esta convocatoria no discrimina por ninguna razón de formación, sea profesional o autodidacta, de género, de autopercepción de género, raza, clase, o alguna razón política; la aplicación no es anónima y la decisión de selección estará enfocada única y exclusivamente en la <strong>solvencia técnica necesaria en el instrumento</strong>.
+                            </li>
+                            <li class="pl-2">
+                                Todos y todas la/os aplicantes seleccionado/as se comprometen a realizar su estancia con su instrumento.
+                            </li>
+                            <li class="pl-2">
+                                Los y las percusionistas seleccionados deberán considerar viajar con instrumentos que puedan transportar.
+                            </li>
+                            <li class="pl-2">
+                                Habrá un piano para pianistas seleccionados, para este caso los seleccionados en piano son limitados.
+                            </li>
+                            <li class="pl-2">
+                                No hay un cupo limitado, sin embargo, se considerará una cantidad de integrantes limitada con los que se pueda trabajar de manera óptima y que sea significativo para quienes resulten seleccionados, por lo que se irá dando <strong>prioridad en relación al orden de aplicación</strong>.
+                            </li>
+                            <li class="pl-2">
+                                La presente convocatoria estará abierta del día de su publicación al <strong>30 de mayo</strong>.
+                            </li>
+                            <li class="pl-2">
+                                El resultado será publicado vía nuestras Redes el <strong>lunes 15 de junio</strong>.
+                            </li>
+                            <li class="pl-2">
+                                Quienes resulten seleccionados serán contactados de manera directa vía correo electrónico para comenzar el proceso de registro al encuentro.
+                            </li>
+                            <li class="pl-2">
+                                El resultado del porcentaje de beca no se hará público, será notificado de modo particular en el momento en que la coordinación entre en contacto con el o la seleccionado/a.
+                            </li>
+                            <li class="pl-2">
+                                El o la participante seleccionado/a se compromete a registrarse y realizar su pago independientemente si tiene beca o no y del porcentaje asignado.
+                            </li>
+                            <li class="pl-2">
+                                El encuentro registrará en audio y video el concierto, este material audiovisual podrá ser utilizado de manera libre por los participantes.
+                            </li>
+                            <li class="pl-2">
+                                La aplicación a esta convocatoria implica la aceptación de todos los términos contenidos en ésta.
+                            </li>
+                        </ol>
+                        
+                        <!-- Form Link -->
+                        <div class="mt-12 pt-8 border-t border-gray-200 text-center">
+                            <p class="text-xl font-medium text-gray-800 mb-6">
+                                Aplica aquí:
+                            </p>
+                            <a href="https://forms.gle/zG5rtxnqtwraB3dw5" target="_blank" rel="noopener noreferrer" class="btn-form">
+                                Llenar formulario de inscripción
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="mt-12 text-center text-gray-600">
+                    <p>¿Tienes dudas? Escríbenos a <a href="mailto:treintaytrescuatro@gmail.com" class="text-gray-900 hover:underline">treintaytrescuatro@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-8 border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-600">
+            <a href="/" class="text-gray-900 hover:text-gray-700 transition-colors">4'33''.mx</a>
+            <span class="mx-2">•</span>
+            <span>Uruapan, Michoacán</span>
+        </div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
