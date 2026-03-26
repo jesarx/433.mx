@@ -1,0 +1,331 @@
+{
+  "tutores_composicion": [
+    {
+      "slug": "nachobacalobera",
+      "nombre": "Nacho Baca-Lobera",
+      "rol": "Compositor",
+      "foto": "images/participantes/nachobacalobera.jpg",
+      "bio": [
+        "Ignacio Baca Lobera ha desarrollado una trayectoria de más de 40 años como compositor; además se ha desarrollado como maestro de varias generaciones de compositores. En su música se exploran el microtonalismo, la improvisación, la electroacústica y el timbre como principio estructural.",
+        "Con una trayectoria de más de 35 años como compositor, Ignacio Baca Lobera ha explorado en su música el microtonalismo, las nuevas técnicas instrumentales, la improvisación controlada, la electroacústica y diversas formas de aleatoriedad. Asimismo, ha sido maestro de varias generaciones de compositores y ha promovido la música contemporánea en diferentes ámbitos."
+      ],
+      "grupo": "tutores_composicion"
+    },
+    {
+      "slug": "samuelcedillo",
+      "nombre": "Samuel Cedillo",
+      "rol": "Compositor",
+      "foto": "images/participantes/samuelcedillo.jpg",
+      "bio": [
+        "Compositor mexicano de origen Mazahua. Estudió composición en el Conservatorio de las Rosas de Michoacán con Germán Romero. De sus influencias formativas posteriores a Romero, Cedillo considera principalmente a Emmanuel Nunes y Pierluigi Billone. Ha revisado su obra con compositores mexicanos y extranjeros. Su música se programa principalmente en Europa, Estados Unidos y América Latina. Su trayectoria cuenta con premios, reconocimientos, becas, grabaciones, comisiones, residencias y cursos. Su obra ha sido grabada en las casas disqueras Cero-Records (MX), Col-Legno y Kairos (AUS). Es miembro actual del Sistema Nacional de Creadores de Arte."
+      ],
+      "grupo": "tutores_composicion"
+    },
+    {
+      "slug": "marisoljimenez",
+      "nombre": "Marisol Jiménez",
+      "rol": "Compositora",
+      "foto": "images/participantes/marisoljimenez.jpg",
+      "bio": [
+        "Marisol Jiménez es compositora, intérprete y artista multidisciplinaria de Guadalajara, México, actualmente residente en Berlín. Su producción incluye numerosas obras de cámara y electrónicas, así como instalaciones sonoras e intermedias. La mayoría de sus obras acústicas, electrónicas y de medios mixtos consisten en esculturas sonoras de creación propia, objetos encontrados y materiales sonoros recopilados de sus propias grabaciones de campo, improvisaciones y performances. Obtuvo un doctorado en composición en la Universidad de Stanford en 2011 y una maestría en Artes en Mills College, Oakland, California (2005). Recientemente desarrolló el proyecto SENSUOUS MATTER, una instalación performativa a gran escala para máquinas autónomas intervenidas e intérpretes, que fue seleccionada para una beca inm-Funding en 2018 en Berlín. Jiménez ganó el 39.º Premio Internacional de Composición Irino en Tokio y recientemente se incorporó al Sistema Nacional de Creadores de Arte en México. Su obra ha sido interpretada y comisionada por destacados conjuntos e intérpretes de música nueva en Europa, Estados Unidos, Japón, Brasil y México."
+      ],
+      "grupo": "tutores_composicion"
+    },
+    {
+      "slug": "edgarguzman",
+      "nombre": "Edgar Guzmán",
+      "rol": "Compositor",
+      "foto": "images/participantes/edgarguzman.jpg",
+      "bio": [
+        "Édgar Guzmán es compositor de música acústica de cámara, electrónica y mixta. Su producción musical incluye obras para solista, ensamble y orquesta, comisionadas por y dedicadas a diversos intérpretes, ensambles e instituciones como Los Angeles Philarmonic, International Contemporary Ensemble, Orquesta Sinfónica Mexiquense, Orquesta Sinfónica Juvenil de México, Ensamble Liminar, Ensamble de Música Contemporánea de la Universidad Autónoma de Baja California; y solistas como Wilfrido Terrazas, Alexander Bruck, Rebekah Heller, Kivie Canh-Lipman, David Bowlin, entre otros. Su obra musical ha sido presentada en países como México, EEUU, Canadá, Brasil, Argentina, Chile, Venezuela, Colombia, Austria, Francia, Polonia, Alemania, Suiza y Holanda."
+      ],
+      "grupo": "tutores_composicion"
+    }
+  ],
+  "tutores_ensamble": [
+    {
+      "slug": "wilfridoterrazas",
+      "nombre": "Wilfrido Terrazas",
+      "rol": "Flautista y compositor",
+      "foto": "images/participantes/wilfridoterrazas.jpg",
+      "bio": [
+        "Wilfrido Terrazas es un flautista, improvisador, compositor y docente mexicano cuyo trabajo explora las fronteras entre improvisación, notación y creación colectiva, y encuentra inspiración en distintos linajes experimentales, las músicas tradicionales de México y la poesía. Es miembro del colectivo Generación Espontánea, ha realizado más de 400 estrenos mundiales, escrito más de 80 composiciones, y grabado más de 60 álbumes publicados en Europa y América. Wilfrido ha presentado su trabajo en 22 países, es coorganizador de la Semana Internacional de Improvisación en Ensenada, su ciudad de origen, y profesor de tiempo completo en la University of California San Diego (UCSD)."
+      ],
+      "grupo": "tutores_ensamble"
+    },
+    {
+      "slug": "fernandovigueras",
+      "nombre": "Fernando Vigueras",
+      "rol": "Guitarrista",
+      "foto": "images/participantes/fernandovigueras.jpg",
+      "bio": [
+        "Fernando Vigueras Sánchez es músico y artista sonoro especializado en prácticas y lenguajes experimentales vinculados con la interdisciplina. En su trabajo indaga sobre el uso objetual de instrumentos musicales para recrear modos concretos de producción sonora, a través de intervenciones en sitio específico, conciertos e instalaciones interactivas.",
+        "Es Maestro en interpretación musical con especialidad en guitarra, por el programa de Posgrado en Música de la UNAM. Licenciado instrumentista en guitarra por la Facultad de Música (UNAM) y Licenciado en jazz con especialidad en guitarra en la Escuela Superior de Música (INBAL).",
+        "Su serie de instalaciones sonoras Traslaciones fue presentada en la muestra homónima en el Centro Multimedia del CNA (2019). Participó en las exposiciones 'La voz oculta de los objetos' Callejón del ruido / Universidad de Guanajuato (2019) y 'Modos de oír', Laboratorio Arte Alameda / Ex Teresa Arte Actual (2018 / 2019).",
+        "Ha sido becario del programa Jóvenes Creadores del FONCA en dos ocasiones en los rubros de música (2013) y multimedia (2016). En 2022 obtuvo la beca Creadores Escénicos del Sistema de Apoyos a la Creación (antes FONCA), en el rubro de interdisciplina."
+      ],
+      "grupo": "tutores_ensamble"
+    }
+  ],
+  "participantes_invitados": [
+    {
+      "slug": "zictraensamble",
+      "nombre": "Zictra Ensamble",
+      "rol": "Ensamble de música contemporánea",
+      "foto": "images/Zictrasobreblanco_3.png",
+      "es_ensamble": true
+    },
+    {
+      "slug": "rauldavila",
+      "nombre": "Raúl Dávila",
+      "rol": "Músico e investigador",
+      "foto": "images/rauldavila.png",
+      "bio": [
+        "Músico e investigador en Humanidades, Arte y Tecnología. Doctor en Humanidades por la Universidad Pompeu Fabra (Barcelona), la investigación de Raúl Dávila se centra en el estudio del pensamiento diagramático en la literatura mística del siglo XVI y su relación con la experiencia estética de la cultura contemporánea y los nuevos medios. Su práctica musical se articula en torno a las nociones de corte y cesura. A través de su trabajo compositivo y de su exploración de la guitarra eléctrica, desarrolla un lenguaje sonoro que oscila entre dos extremos opuestos y complementarios: por un lado, la discontinuidad del sonido mediante el uso del ruido, el voltaje y la electricidad; por otro, el estatismo y la prolongación, que dan lugar a campos armónicos expandidos y a espacios inmersivos fundamentados en la escucha atenta. Es cofundador de la editorial Urbild Editions y de Resonant Room, sesiones de escucha nómadas. Su obra se inscribe dentro del concepto que actualmente desarrolla y que ha denominado la Estética del Corte."
+      ],
+      "grupo": "participantes_invitados"
+    },
+    {
+      "slug": "rolandohernandez",
+      "nombre": "Rolando Hernández",
+      "rol": "Investigador, artista y compositor",
+      "foto": "images/rolandohernandez.jpg",
+      "bio": [
+        "Es investigador, artista y compositor. Sus investigaciones han abarcado aproximaciones críticas al mundo de la improvisación libre y la música experimental, la posibilidad de introducir eventos sonoros de otros campos artísticos en contextos sonoros, la curaduría como una forma de arte, la creación de una historiografía del sonido en la historia de México, la composición como una forma artística. Su trabajo ha sido exhibido y performado en Dar Jacir Foundation for Arts and Research, Ex Teresa Arte Actual, Unsound Festival, labor sonor, Festival TSONAMI Arte Sonoro, Radio CASo, Feria de Arte Material, Errant Sound, Prague Quadrennial, Bienal de Arquitectura de Venecia, Le Larraskito, Fonoteca Nacional, Festival Internacional de Danza de Jalisco, Anthology Film Archive, etc. Además ha hecho giras con sus proyectos en el underground de países como Alemania, Suiza, Viena, Chile, Argentina, Palestina, Holanda, República Checa, España, País Vasco y Estados Unidos. Ha publicado música en labels como Other People, Sacred Realism, Lengua de Lava, Theme Park for Ear, Impulsive Habitat y textos en plataformas como Sul Ponticello, Sonic Field, SIMUC, UNTREF, post(s), entre otros."
+      ],
+      "grupo": "participantes_invitados"
+    },
+    {
+      "slug": "ramoon",
+      "nombre": "Ra Moon",
+      "rol": "Artesano sonoro",
+      "foto": "images/ramoon.jpg",
+      "bio": [
+        "Artesano Sonoro de Ecatepec, Edo de Mex. Egresado de la Escuela Superior de Música INBAL. Su quehacer artístico se enfoca en resignificar la guitarra clásica a través de su intervención, modificación y deconstrucción tomando como ejes de investigación la improvisación y el performance, además de dedicarse al estudio empírico del sonido en los objetos y a la creación de instrumentos.",
+        "Ha creado ensambles de música contemporánea e improvisación libre como Fractal Guitar Trio, Sonido Feral y Haiku. También está a cargo de proyectos culturales como los 'Encuentros de Arte Independiente' y el Ciclo de Músicas Contemporáneas y Experimentales 'El Sueño de Orfeo'. En 2024 estrena su primer álbum independiente titulado 'Nómada', el cual es una compilación de obras propias, improvisaciones, paisajes sonoros e interpretaciones en torno a su búsqueda sonora."
+      ],
+      "grupo": "participantes_invitados"
+    }
+  ],
+  "compositores_comisionados": [
+    {
+      "slug": "perlaontiveros",
+      "nombre": "Perla Ontiveros",
+      "foto": "images/compositores/perlaontiveros.jpg",
+      "bio": [
+        "Perla Ontiveros Chávez nació en Mérida, Yucatán, México. Inició sus estudios musicales en el Instituto de Bellas Artes de Mexicali (IBAEBC) en 2016 y continuó su formación propedéutica en el Centro de Estudios Musicales (CEM) de la Facultad de Artes de la Universidad Autónoma de Baja California (UABC), donde actualmente cursa la Licenciatura en Música.",
+        "Ha participado en diversos talleres de creación e interpretación de música contemporánea, particularmente dentro del Festival de Neofonía, incluyendo su colaboración con el proyecto Book of Premonitions. Su obra Amor, Tiempo y Muerte ha sido interpretada en San Diego y Ensenada. Falling of the Golden Leaves fue presentada en el Athenaeum Art Center como parte del San Diego New Music, interpretada por el Cuarteto RAVE en el Emerging Composers Concert (2025).",
+        "Recientemente, participó en el Festival de Neofonía con las obras Cartografía del Alma y El Secreto del Agua. Además, formó parte del concierto Voces en Travesía II, donde presentó la obra A Kind of Emotion, y del concierto Causes Sónicos: Músicares Creativos a través de las Fronteras, en el que estrenó The Road junto a Michael Dessen y Wilfrido Terrazas."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "miguelangelrivera",
+      "nombre": "Miguel Ángel Rivera Benard",
+      "foto": "images/compositores/miguelangelrivera.jpg",
+      "bio": [
+        "A lo largo de su carrera, ha sido seleccionado en diversos festivales internacionales, entre ellos Sound of Wander (Milán, 2015), Sirga Festival (Flix, España, 2016) y Laberintos Sonoros (Ciudad de México, 2017 y 2018). Asimismo, ha sido galardonado en distintas competencias de composición, como el Dvorak International Composition Competition (2013 y 2014), el Concurso Internacional de Composición del Museo del Quijote (2015) y el Bruno Maderna Composition Competition (2017). En 2024 y 2025 obtuvo mención honorífica en el Ise Shima International Composition Competition (Japón).",
+        "Su música ha sido interpretada por figuras y ensambles de relevancia, como Julián Martínez con la Orquesta de Cámara Michoacana y Versus 8, quienes estrenaron la obra 'El sueño de la Mujer Pájaro' en el 46 Foro de Música Nueva Manuel Enríquez, en el Conservatorio de las Rosas, Morelia, México. En 2022, su proyecto audiovisual 'IN PSOFOS' fue estrenado en Madrid, España, como una colaboración multidisciplinaria que reunió a jóvenes artistas mexicanos, a Zarahlena Frohwitter y al ENESSIMA ENSEMBLE, reafirmando su interés en la creación de experiencias artísticas inmersivas.",
+        "Actualmente, Miguel Ángel Rivera Bénard se desempeña como maestro titular en el curso de Titulación en Composición en NICO (Núcleo Integral de Composición), así como Composición en el CIEM (Centro de Investigación y Estudios de la Música) donde acompaña a nuevas generaciones de músicos en su proceso de formación y creación sonora. Recientemente ha sido ganador de la comisión de obra 2026 por la iniciativa 433 (cuartro treinta y tres), actual exponente de la música nueva."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "axelretif",
+      "nombre": "Axel Retif",
+      "foto": "images/compositores/axelretif.jpg",
+      "bio": [
+        "Axel Retif (Puebla México, 1992) es compositor, productor y artista sonoro. Su música se distingue por un carácter eléctrico, dinámico y abrasivo: a partir de una sola idea musical construye paisajes inmersivos que se despliegan en un tiempo a la vez paciente y explosivo, con texturas intrincadas y contrastes marcados que involucran intensamente a intérpretes y oyentes. Entre 2018 y 2025, sus obras se interpretaron en más de 130 conciertos en más de una docena de países, con la participación de artistas de diversas nacionalidades y más de cincuenta ensambles y solistas. Su trabajo ha sido presentado en festivales e instituciones de relevancia internacional, y recientemente colaborado con ensambles como Arditti Quartet, Splinter Reeds, Loadbang, Duo YonX. Su discografía incluye tres álbumes monográficos: Sincronías (2021), House of Flies (2022) y Broken Sands (2025). Ha producido y lanzado estas y otras publicaciones a través de Tagma Records, sello independiente que dirige.",
+        "En 2023 representó a México y Radio UNAM en el 69º International Rostrum of Composers, celebrado en los Países Bajos y auspiciado por la UNESCO. En 2024, su obra orquestal 5 de mayo: La Batalla de Puebla, comisionada por la Secretaría de Cultura de Puebla, fue estrenada por la Orquesta Sinfónica del Estado de Puebla bajo la dirección de David Hernández Bretón.",
+        "Cuenta con una Maestría en Composición y Teoría por The University of New Mexico en Estados Unidos. Ha ofrecido conferencias y charlas en universidades e instituciones de Colombia, Estados Unidos, Irán y México."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "miguelurquizo",
+      "nombre": "Miguel Urquizo",
+      "foto": "images/compositores/miguelurquizo.jpg",
+      "bio": [
+        "Miguel Urquizo (Salamanca, Guanajuato, 1997) es compositor y profesor en la Universidad de Guanajuato, donde se graduó como Licenciado en Música con especialidad en Composición bajo la tutela de Víctor Ibarra. Su formación se ha enriquecido con cursos y talleres impartidos por reconocidos compositores como Ana Lara, Alex Paxton, José Luis Castillo, Rebecca Saunders, Sarah Nemtsov y Panayiotis Kokoras. Ha sido seleccionado en programas internacionales como el Kompositionswerkstatt 2023 de la WDR, el Programa Permanente de Fortalecimiento de Jóvenes Compositores 2024 de CEPROMUSIC, el Taller de Composición Musical UNAM 2025, el Panel de Lectura para Compositoras y Compositores Mexicanos 2025 de la Orquesta Sinfónica Nacional y el Virtual Brass Academy del ensamble Musikfabrik. Sus obras han sido interpretadas por la WDR Sinfonieorchester, la Orquesta Sinfónica Nacional, la Orquesta de la Universidad de Guanajuato, la Orquesta Sinfónica del Estado de Puebla, CEPROMUSIC y Musikfabrik, presentándose en festivales como el Manuel Enríquez, Callejón del Ruido y Mixtur en Barcelona. Su música de cámara ha contado con intérpretes de prestigio como Irvine Arditti, Joan Martí-Frasquier y Ludwig Carrasco, y se caracteriza por explorar la intersección entre el sonido y las artes visuales, generando un diálogo creativo entre distintos lenguajes artísticos."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "rodrigomt",
+      "nombre": "Rodrigo Martínez Torres",
+      "foto": "images/compositores/rodrigomt.jpg",
+      "bio": [
+        "Rodrigo Martínez Torres (n. 1992) es un compositor mexicano interesado en la arquitectura interna del sonido y en sus resonancias con la mente. También se ha enfocado en la abstracción de las músicas populares como una herramienta para nuevas creaciones. Es multi-instrumentista que se presenta en distintos géneros y estilos. Rodrigo ha sido beneficiario de becas y apoyos tanto en Estados Unidos como en México. Su práctica abarca la radiodifusión y la producción radiofónica, la interpretación en bandas de rock, la escritura para orquesta y la composición para cine y teatro. Rodrigo forma parte de la primera generación en recibir una Maestría en Bellas Artes (MFA) en Práctica Sonora por Dartmouth College (New Hampshire, EE. UU, 2025)."
+      ],
+      "grupo": "compositores_comisionados"
+    }
+  ],
+  "julianmartinez": {
+    "slug": "julianmartinez",
+    "nombre": "Julián Martínez",
+    "rol": "Violinista",
+    "foto": "images/participantes/julianmartinez.jpg",
+    "bio": [
+      "Actual concertino de la Orquesta Sinfónica de Michoacán y de la Orquesta de Cámara de la Universidad Michoacana. Ha realizado innumerables estrenos absolutos de música mexicana para violín solo y suele tocar como solista conciertos de repertorio clásico. Estrenó en México Corale de Luciano Berio y Stain de Arash Yazdani. La afamada maestra Guela Doubrova lo eligió para sucederla en su cátedra en el Conservatorio de las Rosas, por lo que es maestro de violín y música de cámara en esa institución desde el año 2017. Integrante del ensamble Liminar y 8xRadio, es un músico ecléctico, igualmente comprometido con la música tradicional y con la música de vanguardia, en el año 2016 fundó junto con el compositor Samuel Cedillo el Conservatorio Purépecha en la comunidad de Erongarícuaro, Michoacán."
+    ],
+    "grupo": "otros"
+  },
+  "todos": [
+    {
+      "slug": "nachobacalobera",
+      "nombre": "Nacho Baca-Lobera",
+      "rol": "Compositor",
+      "foto": "images/participantes/nachobacalobera.jpg",
+      "bio": [
+        "Ignacio Baca Lobera ha desarrollado una trayectoria de más de 40 años como compositor; además se ha desarrollado como maestro de varias generaciones de compositores. En su música se exploran el microtonalismo, la improvisación, la electroacústica y el timbre como principio estructural.",
+        "Con una trayectoria de más de 35 años como compositor, Ignacio Baca Lobera ha explorado en su música el microtonalismo, las nuevas técnicas instrumentales, la improvisación controlada, la electroacústica y diversas formas de aleatoriedad. Asimismo, ha sido maestro de varias generaciones de compositores y ha promovido la música contemporánea en diferentes ámbitos."
+      ],
+      "grupo": "tutores_composicion"
+    },
+    {
+      "slug": "samuelcedillo",
+      "nombre": "Samuel Cedillo",
+      "rol": "Compositor",
+      "foto": "images/participantes/samuelcedillo.jpg",
+      "bio": [
+        "Compositor mexicano de origen Mazahua. Estudió composición en el Conservatorio de las Rosas de Michoacán con Germán Romero. De sus influencias formativas posteriores a Romero, Cedillo considera principalmente a Emmanuel Nunes y Pierluigi Billone. Ha revisado su obra con compositores mexicanos y extranjeros. Su música se programa principalmente en Europa, Estados Unidos y América Latina. Su trayectoria cuenta con premios, reconocimientos, becas, grabaciones, comisiones, residencias y cursos. Su obra ha sido grabada en las casas disqueras Cero-Records (MX), Col-Legno y Kairos (AUS). Es miembro actual del Sistema Nacional de Creadores de Arte."
+      ],
+      "grupo": "tutores_composicion"
+    },
+    {
+      "slug": "marisoljimenez",
+      "nombre": "Marisol Jiménez",
+      "rol": "Compositora",
+      "foto": "images/participantes/marisoljimenez.jpg",
+      "bio": [
+        "Marisol Jiménez es compositora, intérprete y artista multidisciplinaria de Guadalajara, México, actualmente residente en Berlín. Su producción incluye numerosas obras de cámara y electrónicas, así como instalaciones sonoras e intermedias. La mayoría de sus obras acústicas, electrónicas y de medios mixtos consisten en esculturas sonoras de creación propia, objetos encontrados y materiales sonoros recopilados de sus propias grabaciones de campo, improvisaciones y performances. Obtuvo un doctorado en composición en la Universidad de Stanford en 2011 y una maestría en Artes en Mills College, Oakland, California (2005). Recientemente desarrolló el proyecto SENSUOUS MATTER, una instalación performativa a gran escala para máquinas autónomas intervenidas e intérpretes, que fue seleccionada para una beca inm-Funding en 2018 en Berlín. Jiménez ganó el 39.º Premio Internacional de Composición Irino en Tokio y recientemente se incorporó al Sistema Nacional de Creadores de Arte en México. Su obra ha sido interpretada y comisionada por destacados conjuntos e intérpretes de música nueva en Europa, Estados Unidos, Japón, Brasil y México."
+      ],
+      "grupo": "tutores_composicion"
+    },
+    {
+      "slug": "edgarguzman",
+      "nombre": "Edgar Guzmán",
+      "rol": "Compositor",
+      "foto": "images/participantes/edgarguzman.jpg",
+      "bio": [
+        "Édgar Guzmán es compositor de música acústica de cámara, electrónica y mixta. Su producción musical incluye obras para solista, ensamble y orquesta, comisionadas por y dedicadas a diversos intérpretes, ensambles e instituciones como Los Angeles Philarmonic, International Contemporary Ensemble, Orquesta Sinfónica Mexiquense, Orquesta Sinfónica Juvenil de México, Ensamble Liminar, Ensamble de Música Contemporánea de la Universidad Autónoma de Baja California; y solistas como Wilfrido Terrazas, Alexander Bruck, Rebekah Heller, Kivie Canh-Lipman, David Bowlin, entre otros. Su obra musical ha sido presentada en países como México, EEUU, Canadá, Brasil, Argentina, Chile, Venezuela, Colombia, Austria, Francia, Polonia, Alemania, Suiza y Holanda."
+      ],
+      "grupo": "tutores_composicion"
+    },
+    {
+      "slug": "wilfridoterrazas",
+      "nombre": "Wilfrido Terrazas",
+      "rol": "Flautista y compositor",
+      "foto": "images/participantes/wilfridoterrazas.jpg",
+      "bio": [
+        "Wilfrido Terrazas es un flautista, improvisador, compositor y docente mexicano cuyo trabajo explora las fronteras entre improvisación, notación y creación colectiva, y encuentra inspiración en distintos linajes experimentales, las músicas tradicionales de México y la poesía. Es miembro del colectivo Generación Espontánea, ha realizado más de 400 estrenos mundiales, escrito más de 80 composiciones, y grabado más de 60 álbumes publicados en Europa y América. Wilfrido ha presentado su trabajo en 22 países, es coorganizador de la Semana Internacional de Improvisación en Ensenada, su ciudad de origen, y profesor de tiempo completo en la University of California San Diego (UCSD)."
+      ],
+      "grupo": "tutores_ensamble"
+    },
+    {
+      "slug": "fernandovigueras",
+      "nombre": "Fernando Vigueras",
+      "rol": "Guitarrista",
+      "foto": "images/participantes/fernandovigueras.jpg",
+      "bio": [
+        "Fernando Vigueras Sánchez es músico y artista sonoro especializado en prácticas y lenguajes experimentales vinculados con la interdisciplina. En su trabajo indaga sobre el uso objetual de instrumentos musicales para recrear modos concretos de producción sonora, a través de intervenciones en sitio específico, conciertos e instalaciones interactivas.",
+        "Es Maestro en interpretación musical con especialidad en guitarra, por el programa de Posgrado en Música de la UNAM. Licenciado instrumentista en guitarra por la Facultad de Música (UNAM) y Licenciado en jazz con especialidad en guitarra en la Escuela Superior de Música (INBAL).",
+        "Su serie de instalaciones sonoras Traslaciones fue presentada en la muestra homónima en el Centro Multimedia del CNA (2019). Participó en las exposiciones 'La voz oculta de los objetos' Callejón del ruido / Universidad de Guanajuato (2019) y 'Modos de oír', Laboratorio Arte Alameda / Ex Teresa Arte Actual (2018 / 2019).",
+        "Ha sido becario del programa Jóvenes Creadores del FONCA en dos ocasiones en los rubros de música (2013) y multimedia (2016). En 2022 obtuvo la beca Creadores Escénicos del Sistema de Apoyos a la Creación (antes FONCA), en el rubro de interdisciplina."
+      ],
+      "grupo": "tutores_ensamble"
+    },
+    {
+      "slug": "rauldavila",
+      "nombre": "Raúl Dávila",
+      "rol": "Músico e investigador",
+      "foto": "images/rauldavila.png",
+      "bio": [
+        "Músico e investigador en Humanidades, Arte y Tecnología. Doctor en Humanidades por la Universidad Pompeu Fabra (Barcelona), la investigación de Raúl Dávila se centra en el estudio del pensamiento diagramático en la literatura mística del siglo XVI y su relación con la experiencia estética de la cultura contemporánea y los nuevos medios. Su práctica musical se articula en torno a las nociones de corte y cesura. A través de su trabajo compositivo y de su exploración de la guitarra eléctrica, desarrolla un lenguaje sonoro que oscila entre dos extremos opuestos y complementarios: por un lado, la discontinuidad del sonido mediante el uso del ruido, el voltaje y la electricidad; por otro, el estatismo y la prolongación, que dan lugar a campos armónicos expandidos y a espacios inmersivos fundamentados en la escucha atenta. Es cofundador de la editorial Urbild Editions y de Resonant Room, sesiones de escucha nómadas. Su obra se inscribe dentro del concepto que actualmente desarrolla y que ha denominado la Estética del Corte."
+      ],
+      "grupo": "participantes_invitados"
+    },
+    {
+      "slug": "rolandohernandez",
+      "nombre": "Rolando Hernández",
+      "rol": "Investigador, artista y compositor",
+      "foto": "images/rolandohernandez.jpg",
+      "bio": [
+        "Es investigador, artista y compositor. Sus investigaciones han abarcado aproximaciones críticas al mundo de la improvisación libre y la música experimental, la posibilidad de introducir eventos sonoros de otros campos artísticos en contextos sonoros, la curaduría como una forma de arte, la creación de una historiografía del sonido en la historia de México, la composición como una forma artística. Su trabajo ha sido exhibido y performado en Dar Jacir Foundation for Arts and Research, Ex Teresa Arte Actual, Unsound Festival, labor sonor, Festival TSONAMI Arte Sonoro, Radio CASo, Feria de Arte Material, Errant Sound, Prague Quadrennial, Bienal de Arquitectura de Venecia, Le Larraskito, Fonoteca Nacional, Festival Internacional de Danza de Jalisco, Anthology Film Archive, etc. Además ha hecho giras con sus proyectos en el underground de países como Alemania, Suiza, Viena, Chile, Argentina, Palestina, Holanda, República Checa, España, País Vasco y Estados Unidos. Ha publicado música en labels como Other People, Sacred Realism, Lengua de Lava, Theme Park for Ear, Impulsive Habitat y textos en plataformas como Sul Ponticello, Sonic Field, SIMUC, UNTREF, post(s), entre otros."
+      ],
+      "grupo": "participantes_invitados"
+    },
+    {
+      "slug": "ramoon",
+      "nombre": "Ra Moon",
+      "rol": "Artesano sonoro",
+      "foto": "images/ramoon.jpg",
+      "bio": [
+        "Artesano Sonoro de Ecatepec, Edo de Mex. Egresado de la Escuela Superior de Música INBAL. Su quehacer artístico se enfoca en resignificar la guitarra clásica a través de su intervención, modificación y deconstrucción tomando como ejes de investigación la improvisación y el performance, además de dedicarse al estudio empírico del sonido en los objetos y a la creación de instrumentos.",
+        "Ha creado ensambles de música contemporánea e improvisación libre como Fractal Guitar Trio, Sonido Feral y Haiku. También está a cargo de proyectos culturales como los 'Encuentros de Arte Independiente' y el Ciclo de Músicas Contemporáneas y Experimentales 'El Sueño de Orfeo'. En 2024 estrena su primer álbum independiente titulado 'Nómada', el cual es una compilación de obras propias, improvisaciones, paisajes sonoros e interpretaciones en torno a su búsqueda sonora."
+      ],
+      "grupo": "participantes_invitados"
+    },
+    {
+      "slug": "perlaontiveros",
+      "nombre": "Perla Ontiveros",
+      "foto": "images/compositores/perlaontiveros.jpg",
+      "bio": [
+        "Perla Ontiveros Chávez nació en Mérida, Yucatán, México. Inició sus estudios musicales en el Instituto de Bellas Artes de Mexicali (IBAEBC) en 2016 y continuó su formación propedéutica en el Centro de Estudios Musicales (CEM) de la Facultad de Artes de la Universidad Autónoma de Baja California (UABC), donde actualmente cursa la Licenciatura en Música.",
+        "Ha participado en diversos talleres de creación e interpretación de música contemporánea, particularmente dentro del Festival de Neofonía, incluyendo su colaboración con el proyecto Book of Premonitions. Su obra Amor, Tiempo y Muerte ha sido interpretada en San Diego y Ensenada. Falling of the Golden Leaves fue presentada en el Athenaeum Art Center como parte del San Diego New Music, interpretada por el Cuarteto RAVE en el Emerging Composers Concert (2025).",
+        "Recientemente, participó en el Festival de Neofonía con las obras Cartografía del Alma y El Secreto del Agua. Además, formó parte del concierto Voces en Travesía II, donde presentó la obra A Kind of Emotion, y del concierto Causes Sónicos: Músicares Creativos a través de las Fronteras, en el que estrenó The Road junto a Michael Dessen y Wilfrido Terrazas."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "miguelangelrivera",
+      "nombre": "Miguel Ángel Rivera Benard",
+      "foto": "images/compositores/miguelangelrivera.jpg",
+      "bio": [
+        "A lo largo de su carrera, ha sido seleccionado en diversos festivales internacionales, entre ellos Sound of Wander (Milán, 2015), Sirga Festival (Flix, España, 2016) y Laberintos Sonoros (Ciudad de México, 2017 y 2018). Asimismo, ha sido galardonado en distintas competencias de composición, como el Dvorak International Composition Competition (2013 y 2014), el Concurso Internacional de Composición del Museo del Quijote (2015) y el Bruno Maderna Composition Competition (2017). En 2024 y 2025 obtuvo mención honorífica en el Ise Shima International Composition Competition (Japón).",
+        "Su música ha sido interpretada por figuras y ensambles de relevancia, como Julián Martínez con la Orquesta de Cámara Michoacana y Versus 8, quienes estrenaron la obra 'El sueño de la Mujer Pájaro' en el 46 Foro de Música Nueva Manuel Enríquez, en el Conservatorio de las Rosas, Morelia, México. En 2022, su proyecto audiovisual 'IN PSOFOS' fue estrenado en Madrid, España, como una colaboración multidisciplinaria que reunió a jóvenes artistas mexicanos, a Zarahlena Frohwitter y al ENESSIMA ENSEMBLE, reafirmando su interés en la creación de experiencias artísticas inmersivas.",
+        "Actualmente, Miguel Ángel Rivera Bénard se desempeña como maestro titular en el curso de Titulación en Composición en NICO (Núcleo Integral de Composición), así como Composición en el CIEM (Centro de Investigación y Estudios de la Música) donde acompaña a nuevas generaciones de músicos en su proceso de formación y creación sonora. Recientemente ha sido ganador de la comisión de obra 2026 por la iniciativa 433 (cuartro treinta y tres), actual exponente de la música nueva."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "axelretif",
+      "nombre": "Axel Retif",
+      "foto": "images/compositores/axelretif.jpg",
+      "bio": [
+        "Axel Retif (Puebla México, 1992) es compositor, productor y artista sonoro. Su música se distingue por un carácter eléctrico, dinámico y abrasivo: a partir de una sola idea musical construye paisajes inmersivos que se despliegan en un tiempo a la vez paciente y explosivo, con texturas intrincadas y contrastes marcados que involucran intensamente a intérpretes y oyentes. Entre 2018 y 2025, sus obras se interpretaron en más de 130 conciertos en más de una docena de países, con la participación de artistas de diversas nacionalidades y más de cincuenta ensambles y solistas. Su trabajo ha sido presentado en festivales e instituciones de relevancia internacional, y recientemente colaborado con ensambles como Arditti Quartet, Splinter Reeds, Loadbang, Duo YonX. Su discografía incluye tres álbumes monográficos: Sincronías (2021), House of Flies (2022) y Broken Sands (2025). Ha producido y lanzado estas y otras publicaciones a través de Tagma Records, sello independiente que dirige.",
+        "En 2023 representó a México y Radio UNAM en el 69º International Rostrum of Composers, celebrado en los Países Bajos y auspiciado por la UNESCO. En 2024, su obra orquestal 5 de mayo: La Batalla de Puebla, comisionada por la Secretaría de Cultura de Puebla, fue estrenada por la Orquesta Sinfónica del Estado de Puebla bajo la dirección de David Hernández Bretón.",
+        "Cuenta con una Maestría en Composición y Teoría por The University of New Mexico en Estados Unidos. Ha ofrecido conferencias y charlas en universidades e instituciones de Colombia, Estados Unidos, Irán y México."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "miguelurquizo",
+      "nombre": "Miguel Urquizo",
+      "foto": "images/compositores/miguelurquizo.jpg",
+      "bio": [
+        "Miguel Urquizo (Salamanca, Guanajuato, 1997) es compositor y profesor en la Universidad de Guanajuato, donde se graduó como Licenciado en Música con especialidad en Composición bajo la tutela de Víctor Ibarra. Su formación se ha enriquecido con cursos y talleres impartidos por reconocidos compositores como Ana Lara, Alex Paxton, José Luis Castillo, Rebecca Saunders, Sarah Nemtsov y Panayiotis Kokoras. Ha sido seleccionado en programas internacionales como el Kompositionswerkstatt 2023 de la WDR, el Programa Permanente de Fortalecimiento de Jóvenes Compositores 2024 de CEPROMUSIC, el Taller de Composición Musical UNAM 2025, el Panel de Lectura para Compositoras y Compositores Mexicanos 2025 de la Orquesta Sinfónica Nacional y el Virtual Brass Academy del ensamble Musikfabrik. Sus obras han sido interpretadas por la WDR Sinfonieorchester, la Orquesta Sinfónica Nacional, la Orquesta de la Universidad de Guanajuato, la Orquesta Sinfónica del Estado de Puebla, CEPROMUSIC y Musikfabrik, presentándose en festivales como el Manuel Enríquez, Callejón del Ruido y Mixtur en Barcelona. Su música de cámara ha contado con intérpretes de prestigio como Irvine Arditti, Joan Martí-Frasquier y Ludwig Carrasco, y se caracteriza por explorar la intersección entre el sonido y las artes visuales, generando un diálogo creativo entre distintos lenguajes artísticos."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "rodrigomt",
+      "nombre": "Rodrigo Martínez Torres",
+      "foto": "images/compositores/rodrigomt.jpg",
+      "bio": [
+        "Rodrigo Martínez Torres (n. 1992) es un compositor mexicano interesado en la arquitectura interna del sonido y en sus resonancias con la mente. También se ha enfocado en la abstracción de las músicas populares como una herramienta para nuevas creaciones. Es multi-instrumentista que se presenta en distintos géneros y estilos. Rodrigo ha sido beneficiario de becas y apoyos tanto en Estados Unidos como en México. Su práctica abarca la radiodifusión y la producción radiofónica, la interpretación en bandas de rock, la escritura para orquesta y la composición para cine y teatro. Rodrigo forma parte de la primera generación en recibir una Maestría en Bellas Artes (MFA) en Práctica Sonora por Dartmouth College (New Hampshire, EE. UU, 2025)."
+      ],
+      "grupo": "compositores_comisionados"
+    },
+    {
+      "slug": "julianmartinez",
+      "nombre": "Julián Martínez",
+      "rol": "Violinista",
+      "foto": "images/participantes/julianmartinez.jpg",
+      "bio": [
+        "Actual concertino de la Orquesta Sinfónica de Michoacán y de la Orquesta de Cámara de la Universidad Michoacana. Ha realizado innumerables estrenos absolutos de música mexicana para violín solo y suele tocar como solista conciertos de repertorio clásico. Estrenó en México Corale de Luciano Berio y Stain de Arash Yazdani. La afamada maestra Guela Doubrova lo eligió para sucederla en su cátedra en el Conservatorio de las Rosas, por lo que es maestro de violín y música de cámara en esa institución desde el año 2017. Integrante del ensamble Liminar y 8xRadio, es un músico ecléctico, igualmente comprometido con la música tradicional y con la música de vanguardia, en el año 2016 fundó junto con el compositor Samuel Cedillo el Conservatorio Purépecha en la comunidad de Erongarícuaro, Michoacán."
+      ],
+      "grupo": "otros"
+    }
+  ]
+}

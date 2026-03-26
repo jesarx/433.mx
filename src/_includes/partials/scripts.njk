@@ -1,0 +1,28 @@
+<script>
+  // Mobile menu
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  if (btn) btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+
+  // Fade-in observer
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+  if (window.location.hash) {
+    // Activar todo visible inmediatamente
+    document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
+    // Saltar al top primero (cancela el salto nativo al hash)
+    history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+    // Luego hacer el scroll suave
+    setTimeout(() => {
+      const target = document.querySelector(window.location.hash);
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  } else {
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  }
+</script>

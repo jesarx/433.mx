@@ -1,0 +1,62 @@
+[
+  {
+    "foto": "images/zictra/samuel-cedillo.jpg",
+    "rol": "Dirección",
+    "nombre": "Samuel Cedillo",
+    "bio": "Compositor mexicano de origen Mazahua. Estudió composición en el Conservatorio de las Rosas de Michoacán con Germán Romero. De sus influencias formativas posteriores a Romero, Cedillo considera principalmente a Emmanuel Nunes y Pierluigi Billone. Ha revisado su obra con compositores mexicanos y extranjeros. Su música se programa principalmente en Europa, Estados Unidos y América Latina. Su trayectoria cuenta con premios, reconocimientos, becas, grabaciones, comisiones, residencias y cursos. Su obra ha sido grabada en las casas disqueras Cero-Records (MX), Col-Legno y Kairos (AUS). Es miembro actual del Sistema Nacional de Creadores de Arte."
+  },
+  {
+    "foto": "images/zictra/fabian-felix.jpg",
+    "rol": "Clarinete bajo",
+    "nombre": "Fabián Félix Ruiz",
+    "bio": "Nace en Charapan Michoacán. Comenzó sus estudios musicales desde muy pequeño dentro de bandas tradicionales comunitarias. Tomó iniciación musical con el violinista Julián Martínez. Egresa del bachillerato en música en el Conservatorio de las Rosas en 2010. Egresado con mención honorífica de la licenciatura en Instrumentos Orquestales en el Instituto Superior de Música del estado de Veracruz, bajo la tutela de la maestra Raquel Contreras Salinas. Desde el 2019, es maestro de clarinete en el Conservatorio de las Rosas de Morelia Michoacán."
+  },
+  {
+    "foto": "images/zictra/sergio-ortiz.jpg",
+    "rol": "Trompeta",
+    "nombre": "Sergio A. Ortiz",
+    "bio": "Nació en Sicuicho Michoacán. Graduado con mención honorífica de la licenciatura en música en la especialidad de trompeta por el Conservatorio de las Rosas de Morelia Michoacán, bajo la tutela del Maestro Alexander Freund. Dentro de la música contemporánea ha participado con el Ensamble de las Rosas, ensamble 8 x radio, Ensamble Contemporáneo de Morelia, la Academia Cervantina del Festival Internacional Cervantino y Liminar. Actualmente es trompetista de la Orquesta Sinfónica de Michoacán (OSIDEM) y profesor de trompeta de la Facultad Popular de Bellas Artes de la Universidad Michoacana y del Conservatorio de Las Rosas."
+  },
+  {
+    "foto": "images/zictra/ana-rosa-morfin.jpg",
+    "rol": "Soprano",
+    "nombre": "Ana Rosa Morfín",
+    "bio": "Soprano mexicana reconocida por la calidez y emotividad de su voz. Realizó sus estudios de licenciatura en el Conservatorio de Las Rosas, Maestría en Interpretación Vocal en el Conservatorio de Utrecht, Países Bajos. Se ha especializado en el trabajo corporal aplicado a músicos, bailarines y cantantes, explorando la Técnica Alexander, el Body-Mind Centering y la musicoterapia. Ha desarrollado una amplia trayectoria artística presentándose en escenarios de México y Europa. Se desempeña como directora del Conservatorio de Uruapan y como profesora en la Universidad Autónoma de Tamaulipas."
+  },
+  {
+    "foto": "images/zictra/montserratmuzquiz.jpg",
+    "rol": "Soprano",
+    "nombre": "Montserrat Múzquiz",
+    "bio": "Nacida en Morelia, Michoacán. Inició sus estudios musicales en el Conservatorio de las Rosas. Se ha presentado en Chihuahua, Zacatecas y CDMX, interpretando distinta música académica y popular. Actualmente estudia su último semestre de la Licenciatura en Música en la Facultad Popular de Bellas Artes de la UMNSH y se desempeña desde hace 5 años como docente de coro en el Programa de Secretaría de Cultura de Morelia."
+  },
+  {
+    "foto": "images/zictra/rodrigo-espino.jpg",
+    "rol": "Voz / Objetos",
+    "nombre": "Rodrigo Espino",
+    "bio": "Compositor mexicano cuya música es una experiencia visceral producida y percibida corporalmente. Estudió la licenciatura en composición en la Facultad de Música de la U.N.A.M., recibió la Medalla al Mérito Universitario Gabino Barreda. Beca Jóvenes Creadores 2022-23. Sus obras se han presentado en México, Suiza, Brasil y EEUU, MATA Festival 2025 Nueva York, 43 y 47 Foro de Música Nueva Manuel Enríquez, Festival Internacional Cervantino y Festival de Santa Catarina en Brasil."
+  },
+  {
+    "foto": "images/zictra/julio-cervantes.jpg",
+    "rol": "Guitarra",
+    "nombre": "Julio Isaac Cervantes",
+    "bio": "Estudió la Licenciatura en Música en la Facultad de Artes de la UMSNH. Se ha presentado en: Festival Internacional Pa'lo Escrito, Visiones Sonoras (CMMAS), Foro Internacional de Música Nueva Manuel Enríquez. Ha calificado como ganador en el Concurso de Composición de Música para Guitarra (FONCA-Pablo Gómez, 2015). Actualmente su labor se centra en la difusión de obras realizadas por creadores mexicanos."
+  },
+  {
+    "foto": "images/zictra/jorge-mendoza.jpg",
+    "rol": "Marimba",
+    "nombre": "Jorge Mario Mendoza",
+    "bio": "Licenciado en marimba por la Facultad de Música UNICACH, maestro en interpretación musical por parte del Programa de Maestría y Doctorado en música de la UNAM. En 2019, recibió la Beca Santander para un semestre de intercambio en la Universidad Tokio Gakugei. En 2022, ganó el estímulo Fondo de amistad México-Japón para la grabación de un disco y gira de conciertos en Japón. Actualmente es docente de percusión en el Conservatorio de las Rosas en Morelia."
+  },
+  {
+    "foto": "images/zictra/diego-sanchez-villa.jpg",
+    "rol": "Piano",
+    "nombre": "Diego Sánchez-Villa",
+    "bio": "Pianista y compositor. En 2022, estrenó en México el Concierto para piano, orquesta de cuerdas y timbales de Galina Ustvolskaya, con la Orquesta de Cámara de Bellas Artes, bajo la dirección de Ludwig Carrasco. Conocido como uno de los jóvenes pianistas más activos en la promoción de nuevas obras para piano, con proyectos en México, España, Francia y Austria. En 2024 es premiado como Solista Joven de ÓNIX de 2024-2026."
+  },
+  {
+    "foto": "images/zictra/fabian-rangel.jpg",
+    "rol": "Violín",
+    "nombre": "Fabián Rangel",
+    "bio": "Violinista e improvisador mexicano. Se desarrolla en el ámbito de la música de concierto, principalmente en la música contemporánea y la improvisación libre. Ha tocado con Ensamble Liminar, Ensamble Templum, Generación Espontánea y Sonidero13. Formó parte del Evolution Ensemble, organizado por el International Contemporary Ensemble de Nueva York (2021). Participó en el Foro Internacional de Música Nueva Manuel Enríquez 2022 y 2025. Actualmente forma parte de la Orquesta Filarmónica de Acapulco."
+  }
+]

@@ -1,0 +1,11 @@
+---
+pagination:
+  data: participantes.todos
+  size: 1
+  alias: p
+permalink: "/{{ p.slug }}/index.html"
+layout: layouts/participante.njk
+---
+{% for parrafo in p.bio %}
+<p>{{ parrafo }}</p>
+{% endfor %}

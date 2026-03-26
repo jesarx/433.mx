@@ -1,0 +1,45 @@
+---
+layout: layouts/base.njk
+title: "Zictra Ensamble"
+permalink: "/zictraensamble/index.html"
+show_location: false
+---
+<section class="hero-bg pt-32 pb-16">
+  <div class="max-w-5xl mx-auto px-6">
+    <div class="fade-in visible">
+      <a href="/#participantes" class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-12 transition-colors">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        Volver a participantes
+      </a>
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-12 mb-12">
+        <img src="/images/Zictrasobreblanco_3.png" alt="Zictra Ensamble" class="participant-photo-zictra shadow-lg">
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-4">Zictra Ensamble</h1>
+          <p class="text-lg text-gray-500">Ensamble de música contemporánea</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-light text-gray-900 mb-12 text-center">Integrantes</h2>
+    <div class="space-y-10">
+      {% for m in zictra_members %}
+      <div class="bg-gray-50 rounded-xl p-8 md:p-10">
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+          <img src="/{{ m.foto }}" alt="{{ m.nombre }}" class="member-photo shadow-md flex-shrink-0">
+          <div>
+            <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">{{ m.rol }}</p>
+            <h4 class="text-2xl font-medium text-gray-900 mb-3 text-center md:text-left">{{ m.nombre }}</h4>
+            <p class="text-gray-600 leading-relaxed">{{ m.bio }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
