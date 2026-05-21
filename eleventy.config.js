@@ -6,7 +6,7 @@ export default function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "/var/www/433.mx",  // ← aquí
+      output: process.env.ELEVENTY_OUTPUT || "_site",
       includes: "_includes",
       data: "_data",
     },
