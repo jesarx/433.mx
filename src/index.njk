@@ -196,18 +196,32 @@ permalink: "/index.html"
 </section>
 
 {# ── FOOTER LOGOS ── #}
-<div class="bg-white py-12 border-t border-gray-100">
+<div class="bg-white py-16 border-t border-gray-100">
   <div class="max-w-6xl mx-auto px-6">
-    <div class="flex flex-col items-center space-y-8">
-      
-      <div class="flex items-center space-x-12">
-        <img src="/images/Zictrasobreblanco_3.png" alt="Zictra Ensamble" class="h-28 w-auto logo-hover">
-        <img src="/images/fuenteaurora.png" alt="Fuente Aurora" class="h-28 w-auto logo-hover">
-        <img src="/images/casawerma.png" alt="Casa Werma" class="h-28 w-auto logo-hover">
-        <img src="/images/calavera.png" alt="El gran calavera" class="h-28 w-auto logo-hover">
+    <div class="flex flex-col items-center space-y-12">
+
+      {% set logos = [
+        { src: "2_LOGOTIPO_fuenteaurora_DIGITAL_TRANSP.png", alt: "Fuente Aurora Club Social" },
+        { src: "Gobierno de Michoacán_idXveQM4vY_1.svg", alt: "Gobierno de Michoacán" },
+        { src: "Logo CCACJP 2023.svg", alt: "CCACJP" },
+        { src: "casawerma logo.png", alt: "Casa Werma" },
+        { src: "Zictrasobreblanco_3.png", alt: "Zictra Ensamble" },
+        { src: "Jacaranda.jpg", alt: "La Jacaranda Cultural" },
+        { src: "Orquídea.jpg", alt: "Taller Azul Orquídea" },
+        { src: "logo-posada-yolihuani-cuadro gris.jpg", alt: "Hotel Posada Yolihuani" }
+      ] %}
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-12 gap-y-10 w-full items-center">
+        {% for logo in logos %}
+        <div class="flex items-center justify-center h-24">
+          <img src="/images/logos/{{ logo.src | urlencode }}" alt="{{ logo.alt }}" class="max-h-20 max-w-full w-auto object-contain logo-hover">
+        </div>
+        {% endfor %}
       </div>
 
-      <img src="/images/secretaria.png" alt="Secretaría de cultura" class="h-24 w-auto logo-hover">
+      <div class="w-full flex justify-center pt-8 border-t border-gray-100">
+        <img src="/images/logos/SecretariaCultura_Sistema_Creacion_color.png" alt="Secretaría de Cultura — Sistema de Apoyos a la Creación y Proyectos Culturales" class="max-h-16 w-auto object-contain logo-hover">
+      </div>
 
     </div>
   </div>
