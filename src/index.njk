@@ -107,21 +107,20 @@ permalink: "/index.html"
 </section>
 {# ── CONCIERTOS ── #}
 
-<!-- 
 <section id="conciertos" class="py-20 bg-gray-50">
   <div class="max-w-6xl mx-auto px-6">
     <div class="fade-in visible">
       <h2 class="text-4xl md:text-5xl font-light text-gray-900 mb-12 text-center">Programación conciertos</h2>
       <div class="grid md:grid-cols-4 gap-6">
         {% set conciertos = [
-          { src: "images/conciertos/1_Tenney.jpg", alt: "Tenney" },
-          { src: "images/conciertos/2__ElGranAltarB.jpg", alt: "El Gran Altar B" },
-          { src: "images/conciertos/4__VisionesEnRojo.jpg", alt: "Visiones en Rojo" },
-          { src: "images/conciertos/7_Estudiantes.jpg", alt: "Estudiantes" },
-          { src: "images/conciertos/8_Motus.jpg", alt: "Motus" },
-          { src: "images/conciertos/GesangIstDasein.jpg", alt: "Gesang ist Dasein" },
-          { src: "images/conciertos/GotLost.jpg", alt: "Got Lost" },
-          { src: "images/conciertos/Soliloquios.jpg", alt: "Soliloquios" }
+{ src: "images/conciertos/1.jpg" },
+{ src: "images/conciertos/2.jpg" },
+{ src: "images/conciertos/3.jpg" },
+{ src: "images/conciertos/4.jpg" },
+{ src: "images/conciertos/5.jpg" },
+{ src: "images/conciertos/6.jpg" },
+{ src: "images/conciertos/7.jpg" },
+{ src: "images/conciertos/8.jpg" }
         ] %}
         {% for c in conciertos %}
         <img src="/{{ c.src }}" alt="{{ c.alt }}" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
@@ -130,7 +129,6 @@ permalink: "/index.html"
     </div>
   </div>
 </section>
--->
 
 {# ── LIGHTBOX ── #}
 <div id="lightbox" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 backdrop-blur-sm" onclick="closeLightbox(event)">
@@ -143,6 +141,7 @@ permalink: "/index.html"
 </div>
 
 {# ── CONVOCATORIA ── #}
+<!--
 <section id="convocatoria" class="py-20 bg-white">
   <div class="max-w-6xl mx-auto px-6">
     <div class="fade-in">
@@ -165,6 +164,7 @@ permalink: "/index.html"
     </div>
   </div>
 </section>
+-->
 
 {# ── CONTACTO ── #}
 <section id="contacto" class="py-20 bg-gray-50">
