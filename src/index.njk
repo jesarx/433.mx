@@ -9,7 +9,8 @@ permalink: "/index.html"
 <section id="inicio" class="hero-bg min-h-screen flex items-center justify-center pt-20 pb-20">
   <div class="mx-auto px-6 text-center">
     <div class="fade-in">
-      <img src="/images/433_caracteres1.png" alt="4'33''" class="h-62 w-auto mx-auto mb-8">
+      <h1 class="sr-only">4'33'' — Espacio para el sonido. Encuentro de músicas clásicas contemporáneas en Pátzcuaro, Michoacán</h1>
+      <img src="/images/433_caracteres1.png" alt="Cuatro treinta y tres — espacio para el sonido" width="899" height="686" class="w-full max-w-md md:max-w-lg h-auto mx-auto mb-8">
       <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
         Del martes 4 al domingo 9 de agosto del 2026<br>
         Pátzcuaro, Michoacán
@@ -17,6 +18,10 @@ permalink: "/index.html"
       <div class="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
         <p class="mb-4">Es un espacio de confluencia de una comunidad musical con oídos abiertos al sonido entendido en su amplio espectro.</p>
         <p>Busca generar un encuentro intensivo entre diferentes agentes musicales que permita consolidar una labor dentro de las diversas formas de hacer, escuchar y pensar las músicas de nuestra época, así como de lo que ahora podemos considerar como la música clásica de la última etapa del Siglo XX.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
+        <a href="/docs/cartel-433-2026.webp" target="_blank" rel="noopener" class="btn-convocatoria text-lg px-8 py-3">Cartel</a>
+        <a href="/docs/programa-433-2026.pdf" target="_blank" rel="noopener" class="btn-convocatoria text-lg px-8 py-3">Programa</a>
       </div>
     </div>
   </div>
@@ -65,7 +70,7 @@ permalink: "/index.html"
       {% macro participanteCard(p) %}
       <a href="/{{ p.slug }}/" class="group bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
         <div class="participant-card">
-          <img src="/{{ p.foto }}" alt="{{ p.nombre }}" class="participant-photo">
+          <img src="/{{ p.foto }}" alt="{{ p.nombre }}" class="participant-photo" loading="lazy" decoding="async">
           <div>
             <h3 class="text-xl font-medium text-gray-900 group-hover:text-gray-700 transition-colors">{{ p.nombre }}</h3>
             {% if p.rol %}<p class="text-gray-600 mt-1">{{ p.rol }}</p>{% endif %}
@@ -123,7 +128,7 @@ permalink: "/index.html"
 { src: "images/conciertos/8.jpg" }
         ] %}
         {% for c in conciertos %}
-        <img src="/{{ c.src }}" alt="{{ c.alt }}" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox(this)">
+        <img src="/{{ c.src }}" alt="Cartel de concierto {{ loop.index }}" width="900" height="1600" class="w-full rounded-xl shadow-md cursor-pointer hover:opacity-90 transition-opacity" loading="lazy" decoding="async" onclick="openLightbox(this)">
         {% endfor %}
       </div>
     </div>
@@ -214,13 +219,13 @@ permalink: "/index.html"
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-12 gap-y-10 w-full items-center">
         {% for logo in logos %}
         <div class="flex items-center justify-center h-24">
-          <img src="/images/logos/{{ logo.src | urlencode }}" alt="{{ logo.alt }}" class="max-h-20 max-w-full w-auto object-contain logo-hover">
+          <img src="/images/logos/{{ logo.src | urlencode }}" alt="{{ logo.alt }}" class="max-h-20 max-w-full w-auto object-contain logo-hover" loading="lazy" decoding="async">
         </div>
         {% endfor %}
       </div>
 
       <div class="w-full flex justify-center pt-8 border-t border-gray-100">
-        <img src="/images/logos/SecretariaCultura_Sistema_Creacion_color.png" alt="Secretaría de Cultura — Sistema de Apoyos a la Creación y Proyectos Culturales" class="max-h-16 w-auto object-contain logo-hover">
+        <img src="/images/logos/SecretariaCultura_Sistema_Creacion_color.png" alt="Secretaría de Cultura — Sistema de Apoyos a la Creación y Proyectos Culturales" class="max-h-16 w-auto object-contain logo-hover" loading="lazy" decoding="async">
       </div>
 
     </div>
