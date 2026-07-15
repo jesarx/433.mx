@@ -15,6 +15,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/docs");
+  eleventyConfig.addPassthroughCopy({ "src/favicon.svg": "favicon.svg" });
   eleventyConfig.addWatchTarget("src/css/");
 
   return {
