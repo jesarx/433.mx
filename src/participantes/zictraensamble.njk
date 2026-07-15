@@ -14,7 +14,7 @@ show_location: false
         Volver a participantes
       </a>
       <div class="flex flex-col md:flex-row items-center md:items-start gap-12 mb-12">
-        <img src="/images/Zictrasobreblanco_3.png" alt="Zictra Ensamble" class="participant-photo-zictra shadow-lg">
+        <img src="/images/logos/Zictrasobreblanco_3.png" alt="Zictra Ensamble" class="participant-photo-zictra shadow-lg">
         <div class="text-center md:text-left">
           <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-4">Zictra Ensamble</h1>
           <p class="text-lg text-gray-500">Ensamble de música contemporánea</p>
@@ -31,7 +31,7 @@ show_location: false
       {% for m in zictra_members %}
       <div class="bg-gray-50 rounded-xl p-8 md:p-10">
         <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
-          <img src="/{{ m.foto }}" alt="{{ m.nombre }}" class="member-photo shadow-md flex-shrink-0">
+          <img src="/{{ m.foto }}" alt="{{ m.nombre }}" class="member-photo shadow-md flex-shrink-0" loading="lazy" decoding="async">
           <div>
             <p class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">{{ m.rol }}</p>
             <h4 class="text-2xl font-medium text-gray-900 mb-3 text-center md:text-left">{{ m.nombre }}</h4>

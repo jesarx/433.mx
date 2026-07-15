@@ -72,14 +72,14 @@
       "slug": "zictraensamble",
       "nombre": "Zictra Ensamble",
       "rol": "Ensamble de música contemporánea",
-      "foto": "images/Zictrasobreblanco_3.png",
+      "foto": "images/logos/Zictrasobreblanco_3.png",
       "es_ensamble": true
     },
     {
       "slug": "rauldavila",
       "nombre": "Raúl Dávila",
       "rol": "Músico e investigador",
-      "foto": "images/rauldavila.png",
+      "foto": "images/rauldavila.jpg",
       "bio": [
         "Músico e investigador en Humanidades, Arte y Tecnología. Doctor en Humanidades por la Universidad Pompeu Fabra (Barcelona), la investigación de Raúl Dávila se centra en el estudio del pensamiento diagramático en la literatura mística del siglo XVI y su relación con la experiencia estética de la cultura contemporánea y los nuevos medios. Su práctica musical se articula en torno a las nociones de corte y cesura. A través de su trabajo compositivo y de su exploración de la guitarra eléctrica, desarrolla un lenguaje sonoro que oscila entre dos extremos opuestos y complementarios: por un lado, la discontinuidad del sonido mediante el uso del ruido, el voltaje y la electricidad; por otro, el estatismo y la prolongación, que dan lugar a campos armónicos expandidos y a espacios inmersivos fundamentados en la escucha atenta. Es cofundador de la editorial Urbild Editions y de Resonant Room, sesiones de escucha nómadas. Su obra se inscribe dentro del concepto que actualmente desarrolla y que ha denominado la Estética del Corte."
       ],
@@ -239,7 +239,7 @@
       "slug": "rauldavila",
       "nombre": "Raúl Dávila",
       "rol": "Músico e investigador",
-      "foto": "images/rauldavila.png",
+      "foto": "images/rauldavila.jpg",
       "bio": [
         "Músico e investigador en Humanidades, Arte y Tecnología. Doctor en Humanidades por la Universidad Pompeu Fabra (Barcelona), la investigación de Raúl Dávila se centra en el estudio del pensamiento diagramático en la literatura mística del siglo XVI y su relación con la experiencia estética de la cultura contemporánea y los nuevos medios. Su práctica musical se articula en torno a las nociones de corte y cesura. A través de su trabajo compositivo y de su exploración de la guitarra eléctrica, desarrolla un lenguaje sonoro que oscila entre dos extremos opuestos y complementarios: por un lado, la discontinuidad del sonido mediante el uso del ruido, el voltaje y la electricidad; por otro, el estatismo y la prolongación, que dan lugar a campos armónicos expandidos y a espacios inmersivos fundamentados en la escucha atenta. Es cofundador de la editorial Urbild Editions y de Resonant Room, sesiones de escucha nómadas. Su obra se inscribe dentro del concepto que actualmente desarrolla y que ha denominado la Estética del Corte."
       ],
